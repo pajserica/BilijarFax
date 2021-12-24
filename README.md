@@ -1,2 +1,3 @@
 # BilijarFax
-Mnogo jaka igra bas bas
+Mnogo jaka igra
+
