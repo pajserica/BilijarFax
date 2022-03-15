@@ -91,7 +91,7 @@ public class PlayerController : MonoBehaviour
             //instantiate and eject bomb---------------------------------------------------------------------------------
             if (Input.GetKeyDown(KeyCode.Mouse0) && (numberOfBombs <= maxNumberOfBombs))
             {
-                GameObject createdBomb = Instantiate(sBomb, shootPoint.transform.position, transform.rotation);
+                GameObject createdBomb = Instantiate(sBomb, shootPoint.transform.position, Quaternion.Euler(-90, 0, 0));
                 ejectBomb(createdBomb);
 
             }

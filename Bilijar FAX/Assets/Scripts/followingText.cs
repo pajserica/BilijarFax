@@ -29,8 +29,12 @@ public class followingText : MonoBehaviour
     void Update()
     {
         Vector3 pos = cam.WorldToScreenPoint(transform.position);
+        Debug.Log("---POS----");
+        Debug.Log(pos);
+        Debug.Log("---transform.position----");
+        Debug.Log(transform.position);
 
-        
+
         if (bombNumber1.transform.position != pos && bombScript.id == 1)
         {
             bombNumber1.SetActive(true);
